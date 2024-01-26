@@ -24,4 +24,12 @@ def check_palindrome_number(number):
     reversed_num_str = num_str[::-1]
     
     
+    # Check if the number is a palindrome
+    if num_str == reversed_num_str:
+        print("The given number is a palindrome.")
+    else:
+        print("The given number is not a palindrome.")
+
+    
+    
     
