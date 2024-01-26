@@ -11,5 +11,10 @@
 # Example 2: Non-palindrome number
 
 # ____________________________________ actual code __________________________________
+
+
 def check_palindrome_number(number):
     print("Original number:", number)
+    
+    # Convert the number to a string to work with individual digits
+    num_str = str(number)
