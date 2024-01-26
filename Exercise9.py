@@ -18,3 +18,10 @@ def check_palindrome_number(number):
     
     # Convert the number to a string to work with individual digits
     num_str = str(number)
+    
+    
+    # Reverse the given number
+    reversed_num_str = num_str[::-1]
+    
+    
+    
