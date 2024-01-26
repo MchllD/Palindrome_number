@@ -31,6 +31,9 @@ def check_palindrome_number(number):
         print("The given number is a palindrome.")
     else:
         print("The given number is not a palindrome.")
+        
+# Example 1: Palindrome number
+check_palindrome_number(1221)
 
     
     
