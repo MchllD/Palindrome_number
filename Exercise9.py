@@ -15,6 +15,8 @@
 
 def check_palindrome_number(number):
     print("Original number:", number)
+    original_num = number 
+    
     
     # Convert the number to a string to work with individual digits
     num_str = str(number)
