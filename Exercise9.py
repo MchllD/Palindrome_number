@@ -11,3 +11,5 @@
 # Example 2: Non-palindrome number
 
 # ____________________________________ actual code __________________________________
+def check_palindrome_number(number):
+    print("Original number:", number)
