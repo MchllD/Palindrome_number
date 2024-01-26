@@ -14,7 +14,7 @@
 
 
 def check_palindrome_number(number):
-    print("Original number:", number)
+    print("\nOriginal number:", number)
     original_num = number 
     
     
@@ -34,6 +34,9 @@ def check_palindrome_number(number):
         
 # Example 1: Palindrome number
 check_palindrome_number(1221)
+
+# Example 2: Non-palindrome number
+check_palindrome_number(12345)
 
     
     
